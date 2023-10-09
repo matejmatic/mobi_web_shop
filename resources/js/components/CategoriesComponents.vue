@@ -79,7 +79,7 @@ export default {
   },
   methods: {
     getCategories () {
-      axios.get('/backend/api/get-categories')
+      axios.get('/api/get-categories')
       .then(res => {
         this.categories = res.data
         
@@ -91,7 +91,7 @@ export default {
         let data = {
           name: this.name
         }
-        axios.post('/backend/api/admin/categories/add-category', data)
+        axios.post('/api/admin/categories/add-category', data)
         .then(res => {
           this.isAdd = false
           this.getCategories()
@@ -113,7 +113,7 @@ export default {
       let data = {
         name: category.name
       }
-      axios.post('/backend/api/admin/categories/update-category/' + category.id, data)
+      axios.post('/api/admin/categories/update-category/' + category.id, data)
         .then(res => {
           this.isEdit = false
           this.getCategories()
@@ -125,7 +125,7 @@ export default {
     },
     remove (id) {
       if(confirm("Do you really want to delete?")){
-          axios.delete('/backend/api/admin/categories/delete-category/' + id)
+          axios.delete('/api/admin/categories/delete-category/' + id)
           .then(res => {
               this.getCategories()
           })
