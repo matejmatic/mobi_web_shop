@@ -14,8 +14,8 @@
         </div>
     </div>
     <div class="col-md-8">
-        <!--<img src="https://img.lovepik.com/photo/40005/9211.jpg_wh300.jpg" width="100%" height="500px"> -->
-        <img src="{{ asset('storage/image_1.png') }}" width="100%" height="500px">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOkuUXjoFY0j4abRMX8nD9DKM6y-xacgpiBKdJP=w1080-h608-p-no-v0" width="100%" height="500px">
+        <!--<img src="{{ asset('storage/image_1.png') }}" width="100%" height="500px"> -->
     </div>
     <div class="col-md-2">
         <div class="px-2">
@@ -31,14 +31,13 @@
 
 <div class="row pt-4" style="width: 90%; margin:auto">
     <div class="col-md-4">
-        <img src="{{ asset('storage/image_2.png') }}" width="100%" height="250px">
+        <img src="https://img.freepik.com/premium-vector/hand-holding-mobile-smart-phone-with-shop-app-fashion-items-online-shopping-concept_3482-7693.jpg" width="100%" height="250px">
     </div>
     <div class="col-md-4">
-        <img src="{{ asset('storage/image_3.png') }}" width="100%" height="250px">
-    
+        <img src="https://www.aarki.com/hubfs/PILLAR-PAGE-PROGRAMMATIC.png" width="100%" height="250px">
     </div>
     <div class="col-md-4">
-        <img src="{{ asset('storage/image_2.png') }}" width="100%"  height="250px">
+        <img src="https://img.freepik.com/premium-vector/hand-holding-mobile-smart-phone-with-shop-app-fashion-items-online-shopping-concept_3482-7693.jpg" width="100%"  height="250px">
     
     </div>
 </div>
